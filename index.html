@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔖 Awesome Bookmarks Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h1>🔖 AWESOME</h1>
+                <p class="subtitle">Bookmarks</p>
+                <button class="mobile-toggle" id="mobileToggle">☰</button>
+            </div>
+
+            <div class="search-container">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    class="search-input" 
+                    placeholder="🔍 Suchen... (Ctrl+K)"
+                    autocomplete="off"
+                >
+            </div>
+
+            <nav class="nav-menu" id="navMenu">
+                <div class="nav-section">
+                    <h3>TOP KATEGORIEN</h3>
+                    <ul id="topCategories"></ul>
+                </div>
+                <div class="nav-section">
+                    <h3>ALLE KATEGORIEN</h3>
+                    <ul id="allCategories"></ul>
+                </div>
+            </nav>
+
+            <div class="sidebar-footer">
+                <p>v1.0 • Made with 💜</p>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="content-header">
+                <div class="header-content">
+                    <h1 id="pageTitle">🔖 Awesome Bookmarks</h1>
+                    <p id="pageDesc">Eine kuratierte Sammlung von Links: AI, Tools, Music, Hacking, Cloud & mehr</p>
+                </div>
+                <div class="header-stats">
+                    <span id="linkCount" class="stat-badge">0 Links</span>
+                    <span id="categoryCount" class="stat-badge">0 Kategorien</span>
+                </div>
+            </header>
+
+            <!-- Table of Contents -->
+            <section class="toc-section">
+                <h2>📋 Inhaltsverzeichnis</h2>
+                <div class="toc-grid" id="tocGrid"></div>
+            </section>
+
+            <!-- Links Display Area -->
+            <section class="links-section">
+                <div id="linksContainer" class="links-container">
+                    <div class="loading">Lade Inhalte...</div>
+                </div>
+            </section>
+
+            <!-- Back to Top Button -->
+            <button id="backToTop" class="back-to-top" title="Nach oben">↑</button>
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
