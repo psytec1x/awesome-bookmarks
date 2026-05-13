@@ -1,128 +1,117 @@
-// Bookmark Data Structure
 const bookmarkData = {
     'SITES': {
         links: [
-            { title: 'Log In — WordPress.com', url: 'https://wordpress.com/log-in' },
-            { title: 'Dashboard ‹ ELECTRIBE — WordPress', url: 'http://electribeblog.wordpress.com/wp-admin/index.php' },
-            { title: 'ElectribeWeb Portal', url: 'https://sites.google.com/site/electribesound/' },
-            { title: 'StartHQ', url: 'https://starthq.com/signup' },
-            { title: 'Linktree Admin', url: 'https://linktr.ee/admin' }
-        ]
-    },
-    'MY APPS': {
-        links: [
-            { title: 'AppsGeyser Dashboard', url: 'http://www.appsgeyser.com/dashboard/' },
-            { title: 'Online PDF Converter', url: 'https://www.pdf2go.com/' },
-            { title: 'Ninite - Install or Update Multiple Apps', url: 'https://ninite.com/' },
-            { title: 'Chrome Remote Desktop', url: 'https://remotedesktop.google.com/' }
-        ]
-    },
-    'CLOUD': {
-        links: [
-            { title: 'MEGA', url: 'https://mega.nz/fm/dashboard' },
-            { title: 'Dropbox', url: 'https://www.dropbox.com/home' },
-            { title: 'WeTransfer', url: 'https://wetransfer.com/' },
-            { title: 'OneDrive', url: 'https://onedrive.live.com/' },
-            { title: 'TeraBox', url: 'https://www.terabox.com/' }
+            { title: 'WordPress.com', url: 'https://wordpress.com/' },
+            { title: 'Blogger', url: 'https://www.blogger.com/' },
+            { title: 'Tumblr', url: 'https://www.tumblr.com/' },
+            { title: 'Linktree', url: 'https://linktr.ee/' }
         ]
     },
     'AI LIKE CHATGPT': {
         links: [
-            { title: 'ChatGPT', url: 'https://chat.openai.com/chat' },
+            { title: 'ChatGPT', url: 'https://chat.openai.com/' },
             { title: 'Google Bard', url: 'https://bard.google.com/' },
-            { title: 'Bing', url: 'https://www.bing.com/?FORM=Z9FD1' },
+            { title: 'Microsoft Bing', url: 'https://www.bing.com/' },
             { title: 'Perplexity AI', url: 'https://www.perplexity.ai/' },
-            { title: 'Claude (Anthropic)', url: 'https://claude.ai/' }
+            { title: 'Claude', url: 'https://claude.ai/' }
+        ]
+    },
+    'CLOUD': {
+        links: [
+            { title: 'MEGA', url: 'https://mega.nz/' },
+            { title: 'Google Drive', url: 'https://drive.google.com/' },
+            { title: 'Dropbox', url: 'https://www.dropbox.com/' },
+            { title: 'OneDrive', url: 'https://onedrive.live.com/' },
+            { title: 'WeTransfer', url: 'https://wetransfer.com/' }
         ]
     },
     'AI TOOLS': {
         links: [
-            { title: 'Wolfram Alpha', url: 'https://www.wolframalpha.com/' },
-            { title: 'Notion', url: 'https://www.notion.so/' },
-            { title: 'Copy.ai', url: 'https://www.copy.ai/' },
-            { title: 'Grammarly', url: 'https://www.grammarly.com/' },
-            { title: 'There\'s An AI For That', url: 'https://theresanaiforthat.com/' }
-        ]
-    },
-    'BILD DESIGN': {
-        links: [
-            { title: 'Photopea', url: 'https://www.photopea.com/' },
-            { title: 'DALL·E 2', url: 'https://openai.com/dall-e-2/' },
+            { title: 'Notion AI', url: 'https://www.notion.so/' },
             { title: 'Midjourney', url: 'https://www.midjourney.com/' },
-            { title: 'Canva', url: 'https://www.canva.com/' },
-            { title: 'Adobe Firefly', url: 'https://firefly.adobe.com/' }
-        ]
-    },
-    'AI VIDEO': {
-        links: [
-            { title: 'Runway ML', url: 'https://runwayml.com/' },
-            { title: 'HeyGen', url: 'https://www.heygen.com/' },
-            { title: 'Fliki', url: 'https://fliki.ai/' },
-            { title: 'Pictory.ai', url: 'https://pictory.ai/' }
-        ]
-    },
-    'SOUND AI': {
-        links: [
-            { title: 'AudioShake', url: 'https://indie.audioshake.ai/' },
-            { title: 'Mubert Render', url: 'https://mubert.com/render' },
-            { title: 'Soundful', url: 'https://soundful.com/' },
-            { title: 'FakeYou', url: 'https://fakeyou.com/' }
+            { title: 'DALL-E', url: 'https://openai.com/dall-e-2/' },
+            { title: 'Stable Diffusion', url: 'https://stablediffusionweb.com/' },
+            { title: 'Runway ML', url: 'https://runwayml.com/' }
         ]
     },
     'CODE TOOLS': {
         links: [
-            { title: 'GitHub Copilot', url: 'https://github.com/features/copilot' },
-            { title: 'StackOverflow', url: 'https://stackoverflow.com/' },
-            { title: 'CodePen', url: 'https://codepen.io/' },
-            { title: 'Replit', url: 'https://replit.com/' }
+            { title: 'GitHub', url: 'https://github.com/' },
+            { title: 'VS Code', url: 'https://code.visualstudio.com/' },
+            { title: 'Stack Overflow', url: 'https://stackoverflow.com/' },
+            { title: 'CodePen', url: 'https://codepen.io/' }
         ]
     },
-    'SEARCH & OSINT': {
+    'DESIGN': {
         links: [
-            { title: 'OSINT Framework', url: 'https://osintframework.com/' },
-            { title: 'Shodan', url: 'https://www.shodan.io/' },
-            { title: 'Google Trends', url: 'https://trends.google.com/trends/' },
-            { title: 'CyberChef', url: 'https://gchq.github.io/CyberChef/' }
+            { title: 'Figma', url: 'https://www.figma.com/' },
+            { title: 'Canva', url: 'https://www.canva.com/' },
+            { title: 'Adobe XD', url: 'https://www.adobe.com/products/xd.html' },
+            { title: 'Photopea', url: 'https://www.photopea.com/' }
+        ]
+    },
+    'MUSIC': {
+        links: [
+            { title: 'Spotify', url: 'https://www.spotify.com/' },
+            { title: 'SoundCloud', url: 'https://soundcloud.com/' },
+            { title: 'YouTube Music', url: 'https://music.youtube.com/' },
+            { title: 'Bandcamp', url: 'https://bandcamp.com/' }
+        ]
+    },
+    'VIDEO': {
+        links: [
+            { title: 'YouTube', url: 'https://www.youtube.com/' },
+            { title: 'Vimeo', url: 'https://vimeo.com/' },
+            { title: 'Runway ML', url: 'https://runwayml.com/' },
+            { title: 'Synthesia', url: 'https://www.synthesia.io/' }
         ]
     },
     'PRODUCTIVITY': {
         links: [
             { title: 'Notion', url: 'https://www.notion.so/' },
             { title: 'ClickUp', url: 'https://clickup.com/' },
-            { title: 'Todoist', url: 'https://todoist.com/' },
-            { title: 'Asana', url: 'https://asana.com/' }
-        ]
-    },
-    'MUSIC DOWNLOADS': {
-        links: [
-            { title: 'Ektoplazm', url: 'http://www.ektoplazm.com/' },
-            { title: 'Bandcamp', url: 'https://bandcamp.com/' },
-            { title: 'SoundCloud', url: 'https://soundcloud.com/' },
-            { title: 'YouTube Music', url: 'https://music.youtube.com/' }
-        ]
-    },
-    'MARKETING & SEO': {
-        links: [
-            { title: 'Google Analytics', url: 'https://analytics.google.com/' },
-            { title: 'Ahrefs', url: 'https://ahrefs.com/' },
-            { title: 'SEMrush', url: 'https://www.semrush.com/' },
-            { title: 'Moz', url: 'https://moz.com/' }
-        ]
-    },
-    'DEVELOPMENT': {
-        links: [
-            { title: 'GitHub', url: 'https://github.com/' },
-            { title: 'Docker Hub', url: 'https://hub.docker.com/' },
-            { title: 'NPM', url: 'https://www.npmjs.com/' },
-            { title: 'Dev.to', url: 'https://dev.to/' }
+            { title: 'Asana', url: 'https://asana.com/' },
+            { title: 'Monday.com', url: 'https://monday.com/' }
         ]
     },
     'LEARNING': {
         links: [
             { title: 'Udemy', url: 'https://www.udemy.com/' },
             { title: 'Coursera', url: 'https://www.coursera.org/' },
-            { title: 'Khan Academy', url: 'https://www.khanacademy.org/' },
-            { title: 'Codecademy', url: 'https://www.codecademy.com/' }
+            { title: 'Skillshare', url: 'https://www.skillshare.com/' },
+            { title: 'LinkedIn Learning', url: 'https://www.linkedin.com/learning/' }
+        ]
+    },
+    'DEVELOPER TOOLS': {
+        links: [
+            { title: 'Stack Overflow', url: 'https://stackoverflow.com/' },
+            { title: 'DevDocs', url: 'https://devdocs.io/' },
+            { title: 'MDN Web Docs', url: 'https://developer.mozilla.org/' },
+            { title: 'CSS-Tricks', url: 'https://css-tricks.com/' }
+        ]
+    },
+    'HACKING & SECURITY': {
+        links: [
+            { title: 'OWASP', url: 'https://owasp.org/' },
+            { title: 'Hack The Box', url: 'https://www.hackthebox.com/' },
+            { title: 'TryHackMe', url: 'https://tryhackme.com/' },
+            { title: 'VirusTotal', url: 'https://www.virustotal.com/' }
+        ]
+    },
+    'SEARCH & OSINT': {
+        links: [
+            { title: 'Google', url: 'https://www.google.com/' },
+            { title: 'DuckDuckGo', url: 'https://duckduckgo.com/' },
+            { title: 'Shodan', url: 'https://www.shodan.io/' },
+            { title: 'Intelligence X', url: 'https://intelx.io/' }
+        ]
+    },
+    'MARKETING & SEO': {
+        links: [
+            { title: 'Google Analytics', url: 'https://analytics.google.com/' },
+            { title: 'SEMrush', url: 'https://www.semrush.com/' },
+            { title: 'Ahrefs', url: 'https://ahrefs.com/' },
+            { title: 'Google Trends', url: 'https://trends.google.com/' }
         ]
     }
 };
