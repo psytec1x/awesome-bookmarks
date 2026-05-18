@@ -7,7 +7,6 @@
 
 ## 📋 Inhaltsverzeichnis
 
-- [SITES](#sites) (25)
 - [MY APPS](#my-apps) (19)
 - [CLOUD](#cloud) (21)
 - [TEXTER ua](#texter-ua) (14)
@@ -86,33 +85,7 @@
 
 ---
 
-## SITES
 
-- [Log In — WordPress.com](https://wordpress.com/log-in?site=psytecsoundz.wordpress.com&redirect_to=%2Fcustomize%2Fpsytecsoundz.wordpress.com%3Futm_medium%3Demail%26utm_campaign%3Dwelcome-encourage%26utm_source%3Dguides)
-- [Dashboard ‹ ELECTRIBE — WordPress](http://electribeblog.wordpress.com/wp-admin/index.php)
-- [ElectribeWeb Portal googlesite](https://sites.google.com/site/electribesound/)
-- [LayoutBlogger: ElectribeWebX - Layout](https://www.blogger.com/blogger.g?blogID=1570348335779430648#pageelements)
-- [aldi-gruenstrom](https://www.aldi-gruenstrom.de/)
-- [ELECTRIBE WEB](http://www.netvibes.com/privatepage/2#MY_VIBE)
-- [Verwaltungspanel \[electribe.ucoz.com\]](http://electribe.ucoz.com/panel/?a=cp)
-- [Dashboard - Serviceportal \| coeo Inkasso](https://www.coeo-inkasso.de/serviceportal/dashboard)
-- [net2ftp - a web based FTP client](http://www.net2ftp.com/index.php)
-- [Sascha Baumi - Germany \| about.me](https://about.me/electribe)
-- [ElectribeWebX](http://electribewebx.blogspot.de/?m=0)
-- [Willkommen! \| Electribe](http://electribe.chayns.net/aboutus?id=93)
-- [StartHQ](https://starthq.com/signup)
-- [ufotze1xxx](https://my.metageek.com/register?app=inSSIDer)
-- [Tumblr](https://www.tumblr.com/)
-- [bandcamp](https://psytecsoundz.bandcamp.com/releases)
-- [Seiten ‹ PsytecSoundz — WordPress.com](https://wordpress.com/pages/trashed/psytecsoundz.wordpress.com)
-- [Anpassen: PsytecSoundz](https://psytecsoundz.wordpress.com/wp-admin/customize.php?url=https%3A%2F%2Fpsytecsoundz.wordpress.com%2F)
-- [Customizer ‹ PsytecSoundz — WordPress.com](https://wordpress.com/customize/psytecsoundz.wordpress.com?utm_medium=email&utm_campaign=welcome-encourage&utm_source=guides)
-- [Unbenannte Website](https://sites.google.com/d/18A6Fo4E3KwiNIBb3WgePMQ7NQlykgro1/p/1iA9kTw8-sv7C10ZkJYIXzmUpB-LZX7Vz/edit)
-- [Willkommen! \| Electribe](https://electribe.chayns.net/?#Herzlich--Willkommen)
-- [Bewerbungsschreiben als PDF & Druckvorlage \| anschreiben.com](https://anschreiben.com/)
-- [Persönliche Daten für mein Lebenslauf \| easy-lebenslauf.de](https://easy-lebenslauf.de/app/lebenslauf-online-erstellen/sektion/personal)
-- [Just Delete Me \| A directory of direct links to delete your account from web services.](https://backgroundchecks.org/justdeleteme/)
-- [Linktree Admin](https://linktr.ee/admin)
 
 ---
 
