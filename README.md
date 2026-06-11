@@ -1,6 +1,9 @@
 # 🔖 AWESOME BOOKMARKS
 
-> Eine kuratierte Sammlung von Links aus den Bereichen AI, Tools, Music, Hacking, Cloud & mehr.
+Eine 
+
+
+Eine Sammlung von Links aus den Bereichen AI, Tools, Music, Hacking, Cloud & mehr.
 > Ursprung: Notion-Seite von [psytec1x](https://github.com/psytec1x)
 
 ---
